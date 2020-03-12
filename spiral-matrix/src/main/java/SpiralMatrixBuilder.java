@@ -15,6 +15,7 @@ public class SpiralMatrixBuilder {
         else if(i == 3)
         {
             expected[0][1] = 2;
+            expected[0][2] = 3;
 
             expected = new int[][]{
                     {1, 2, 3},
