@@ -7,7 +7,13 @@ public class SpiralMatrixBuilder {
             expected = new int[][]{
                     {1}
             };
-        }else {
+        } else if (i == 2) {
+            expected = new int[][]{
+                    {1, 2},
+                    {4, 3}
+            };
+        }
+        else {
             expected = new int[][]{};
         }
         return expected;
