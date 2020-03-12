@@ -2,13 +2,14 @@
 public class SpiralMatrixBuilder {
 
     public int[][] buildMatrixOfSize(int i) {
+        int[][] expected;
         if (i == 1) {
-            int[][] expected = {
+            expected = new int[][]{
                     {1}
             };
-            return expected;
+        }else {
+            expected = new int[][]{};
         }
-        int[][] expected = {};
         return expected;
     }
 }
