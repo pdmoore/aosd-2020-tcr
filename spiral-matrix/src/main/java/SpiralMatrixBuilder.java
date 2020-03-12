@@ -8,6 +8,7 @@ public class SpiralMatrixBuilder {
         } else if (i == 2) {
             expected[0][0] = 1;
             expected[1][0] = 2;
+            expected[0][1] = 4;
 
 
             expected = new int[][]{
