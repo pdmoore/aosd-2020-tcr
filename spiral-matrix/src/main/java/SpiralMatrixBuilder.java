@@ -23,11 +23,6 @@ public class SpiralMatrixBuilder {
             expected[2][1] = 6;
             expected[2][2] = 5;
 
-            expected = new int[][]{
-                    {1, 2, 3},
-                    {8, 9, 4},
-                    {7, 6, 5}
-            };
         }
 
         return expected;
