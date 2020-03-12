@@ -7,9 +7,7 @@ public class SpiralMatrixBuilder {
             return expected;
         }
         expected[0][0] = 1;
-        if (i == 1) {
-
-        } else if (i == 2) {
+        if (i == 2) {
             expected[0][0] = 1;
             expected[0][1] = 2;
             expected[1][0] = 4;
