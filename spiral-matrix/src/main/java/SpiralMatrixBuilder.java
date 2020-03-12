@@ -12,10 +12,7 @@ public class SpiralMatrixBuilder {
             expected[1][1] = 3;
 
 
-            expected = new int[][]{
-                    {1, 2},
-                    {4, 3}
-            };
+
         }
         else {
             expected = new int[][]{};
