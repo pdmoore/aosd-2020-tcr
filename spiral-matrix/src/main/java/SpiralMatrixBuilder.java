@@ -11,9 +11,7 @@ public class SpiralMatrixBuilder {
             expected[1][0] = 4;
             expected[1][1] = 3;
         }
-        else {
-            expected = new int[][]{};
-        }
+
         return expected;
     }
 }
