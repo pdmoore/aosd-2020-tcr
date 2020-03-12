@@ -1,4 +1,18 @@
-# Spiral Matrix
+# TCR - test && commit || revert
+
+Kent Beck's article on TCR  
+<https://medium.com/@kentbeck_7670/test-commit-revert-870bbd756864>
+
+Dmitry Kandalov's Limited WIP plugin for IntelliJ  
+<https://plugins.jetbrains.com/plugin/7655-limited-wip>
+
+
+Spiral Matrix kata from Exercism.io  
+<https://exercism.io/>
+
+
+
+# The Problem: Spiral Matrix
 
 Given the size, return a square matrix of numbers in spiral order.
 
