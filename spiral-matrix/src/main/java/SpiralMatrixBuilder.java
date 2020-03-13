@@ -3,7 +3,7 @@ public class SpiralMatrixBuilder {
 
     public int[][] buildMatrixOfSize(int i) {
         int[][] expected = new int[i][i];
-        if(i == 0){
+        if (i == 0) {
             return expected;
         }
 
