@@ -6,7 +6,9 @@ public class SpiralMatrixBuilder {
         if(i == 0){
             return expected;
         }
+
         expected[0][0] = 1;
+
         if (i == 2) {
             expected[0][1] = 2;
             expected[1][1] = 3;
