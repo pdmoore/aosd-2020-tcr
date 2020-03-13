@@ -13,7 +13,8 @@ public class SpiralMatrixBuilder {
         expected[row][col] = ++cellValue;
 
         if (i == 2) {
-            expected[0][1] = ++cellValue;
+            expected[row][++col] = ++cellValue;
+            
             expected[1][1] = ++cellValue;
             expected[1][0] = ++cellValue;
         }
