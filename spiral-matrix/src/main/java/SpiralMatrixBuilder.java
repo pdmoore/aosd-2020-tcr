@@ -22,7 +22,6 @@ public class SpiralMatrixBuilder {
             expected[2][0] = 7;
             expected[1][0] = 8;
             expected[1][1] = 9;
-
         }
 
         return expected;
