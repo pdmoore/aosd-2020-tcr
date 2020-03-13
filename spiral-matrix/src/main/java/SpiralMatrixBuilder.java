@@ -3,11 +3,13 @@ public class SpiralMatrixBuilder {
 
     public int[][] buildMatrixOfSize(int i) {
         int[][] expected = new int[i][i];
+        int cellValue = 0;
+
         if (i == 0) {
             return expected;
         }
 
-        expected[0][0] = 1;
+        expected[0][0] = ++cellValue;
 
         if (i == 2) {
             expected[0][1] = 2;
