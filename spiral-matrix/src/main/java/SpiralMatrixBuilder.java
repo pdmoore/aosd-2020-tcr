@@ -18,14 +18,14 @@ public class SpiralMatrixBuilder {
         }
         else if(i == 3)
         {
-            expected[0][1] = 2;
-            expected[0][2] = 3;
-            expected[1][2] = 4;
-            expected[2][2] = 5;
-            expected[2][1] = 6;
-            expected[2][0] = 7;
-            expected[1][0] = 8;
-            expected[1][1] = 9;
+            expected[0][1] = ++cellValue;
+            expected[0][2] = ++cellValue;
+            expected[1][2] = ++cellValue;
+            expected[2][2] = ++cellValue;
+            expected[2][1] = ++cellValue;
+            expected[2][0] = ++cellValue;
+            expected[1][0] = ++cellValue;
+            expected[1][1] = ++cellValue;
         }
 
         return expected;
