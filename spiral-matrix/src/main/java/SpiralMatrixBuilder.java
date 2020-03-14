@@ -41,7 +41,6 @@ public class SpiralMatrixBuilder {
 //            [1][0]
 //            [1][1]
             for (int j = row; j > 1; j--) {
-
                 expected[--row][col] = ++cellValue;
             }
 
