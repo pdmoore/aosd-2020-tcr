@@ -26,8 +26,8 @@ public class SpiralMatrixBuilder {
 
 
 
-            expected[1][col] = ++cellValue;
-            expected[2][col] = ++cellValue;
+            expected[++row][col] = ++cellValue;
+            expected[++row][col] = ++cellValue;
 
             expected[2][1] = ++cellValue;
             expected[2][0] = ++cellValue;
