@@ -20,7 +20,7 @@ public class SpiralMatrixBuilder {
             expected[row][--col] = ++cellValue;
         } else if (i == 3) {
 
-            for (int j = 1; j < i; j++) {
+            for (int j = col + 1; j < i; j++) {
 
                 expected[row][++col] = ++cellValue;
             }
