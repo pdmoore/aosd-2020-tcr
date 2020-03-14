@@ -34,7 +34,7 @@ public class SpiralMatrixBuilder {
 
 //            [2][1]
 //            [2][0]
-            expected[2][--col] = ++cellValue;
+            expected[2][1] = ++cellValue;
             expected[2][0] = ++cellValue;
 
             expected[1][0] = ++cellValue;
