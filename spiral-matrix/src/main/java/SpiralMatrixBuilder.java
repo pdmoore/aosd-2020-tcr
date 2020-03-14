@@ -25,9 +25,9 @@ public class SpiralMatrixBuilder {
             }
 
 
-
-            expected[++row][col] = ++cellValue;
-            expected[++row][col] = ++cellValue;
+            for (int j = row + 1; j < i; j++) {
+                expected[++row][col] = ++cellValue;
+            }
 
             expected[2][1] = ++cellValue;
             expected[2][0] = ++cellValue;
