@@ -21,12 +21,13 @@ public class SpiralMatrixBuilder {
         } else if (i == 3) {
 
             for (int j = col + 1; j < i; j++) {
-
                 expected[row][++col] = ++cellValue;
             }
 
-            expected[1][2] = ++cellValue;
-            expected[2][2] = ++cellValue;
+
+
+            expected[1][col] = ++cellValue;
+            expected[2][col] = ++cellValue;
 
             expected[2][1] = ++cellValue;
             expected[2][0] = ++cellValue;
