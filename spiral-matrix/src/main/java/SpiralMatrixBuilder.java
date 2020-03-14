@@ -46,6 +46,8 @@ public class SpiralMatrixBuilder {
 
             // TODO this starts to duplicate the sequence from line 25.
             // but move in the for loop boundary by one (-1) from the right
+            // maybe have a edge var that gets increased by 1
+            // and throw the four for lops in a while loop that halts when cellValue > i*i
 //            [1][1]
             for (int j = col + 1; j < i - 1; j++) {
                 expected[row][++col] = ++cellValue;
