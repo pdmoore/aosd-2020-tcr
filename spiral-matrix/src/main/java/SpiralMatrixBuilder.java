@@ -32,7 +32,9 @@ public class SpiralMatrixBuilder {
                 expected[++row][col] = ++cellValue;
             }
 
-            expected[row][--col] = ++cellValue;
+//            [2][1]
+//            [2][0]
+            expected[2][--col] = ++cellValue;
             expected[row][--col] = ++cellValue;
 
             expected[1][0] = ++cellValue;
