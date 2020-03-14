@@ -23,13 +23,13 @@ public class SpiralMatrixBuilder {
             for (int j = col + 1; j < i; j++) {
                 expected[row][++col] = ++cellValue;
             }
-            
+
             for (int j = row + 1; j < i; j++) {
                 expected[++row][col] = ++cellValue;
             }
 
-            expected[2][1] = ++cellValue;
-            expected[2][0] = ++cellValue;
+            expected[row][1] = ++cellValue;
+            expected[row][0] = ++cellValue;
 
             expected[1][0] = ++cellValue;
             expected[1][1] = ++cellValue;
